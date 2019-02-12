@@ -1,0 +1,269 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700,900);
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.contents {
+  margin: 0 auto;
+  width: 1100px;
+}
+/* HEADER CSS */
+
+header {
+  background-color: #fff;
+  position: fixed;
+  top: 0;  
+  width: 100%;
+  z-index: 10;
+}
+
+header .bolt {
+  float: left;
+  font-size: 40px;
+  margin: 15px 0;
+  color: #c0c0c0;
+}
+
+.contact {
+  font-family: Raleway;
+  float: right;
+  margin-top: 15px;
+  margin-right: 200px;
+  margin-bottom: 15px;
+}
+
+header .contact_button {
+  background-color: #74cfae;
+  border-radius: 5px;
+  color: #fff;
+  font-family: Lato;
+  padding: 12px 14px;
+  text-align: center;
+}
+
+
+/* DIV TITLE CSS */
+
+.main_title {
+  background-color: #f2f2f2;
+  margin-top: 70px;
+  padding-top: 250px;
+  padding-bottom: 250px;
+  width: 100%;
+}
+
+.title_letter {
+  text-align: center;
+}
+.main_text {
+  color: #74cfae;
+  font-family: Lato;
+  font-size: 90px;
+  font-weight: 700;
+}
+
+.sub_text {
+  color: #c0c0c0;
+  font-family: Raleway;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+
+
+
+/* SECTION CSS1 */
+
+.section_contents {
+  background-color: #74cfae;
+  font-size: 0;
+  padding-top: 50px;
+  width: 100%;
+}
+
+.left_section {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 40%;
+} 
+.img_in_section {
+  float: right;
+  margin-right: 50px;
+}
+
+.right_section {
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: Raleway;
+  padding-top: 30px;
+  padding-right: 30px;
+  vertical-align: top;
+  width: 60%;
+}
+
+.first_text {
+  color: #fff;
+  font-family: Raleway;
+  font-size: 24px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.second_text {
+  color: #fff;
+  font-family: Raleway;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* ARTICLE CSS */
+
+.article_contents {
+  background-color: #f2f2f2;
+  color: #333; 
+  padding-top: 60px;
+  padding-bottom: 70px;
+  text-align: center;
+  width: 100%;
+}
+
+.ourlatestwork {
+  font-family: Raleway;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.middle li {
+  box-sizing: border-box;
+  float: left;
+  margin: 0 auto;
+  opacity: 0.7;
+  padding-left: 100px;
+  padding-bottom: 80px;
+}
+
+.middle li:hover {
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.middle li:nth-child(3n+1) {
+  padding-left: 0;
+}
+
+.middle li:nth-child(n+4) {
+  padding-bottom: 0;
+}
+
+.bottom {
+  display: inline-block;
+  padding-top: 90px;
+}
+
+.bottom_text {
+  display: inline-block;
+  font-family: Raleway;
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 0 auto;
+  margin-right: 90px;
+  width: 50%;
+}
+
+.mail {
+  display: inline-block;
+}
+.mail_button {
+  background-color: #74cfae;
+  border: none;
+  color: #fff;
+  display: inline-block;
+  font-size: 12px;
+  padding: 14px 20px;
+}
+
+
+/* SECTION CSS 2 */
+
+.section_content-second {
+  background-color: #4e4e4e;
+  color: #fff;
+  padding-top: 70px;
+  padding-bottom: 100px;
+  width: 100%;
+}
+
+.ourskills {
+  font-family: Raleway;
+  font-size: 24px;
+  padding-bottom: 70px; 
+  text-align: center;
+}
+
+.section_box ul {
+  font-size: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+.section_box ul li {
+  box-sizing: border-box;
+  display: inline-block;
+  padding-left: 180px;
+}
+
+.section_box ul li:first-child {
+  padding-left: 0;
+}
+.section_box p {
+  font-family: Raleway;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* NAV CSS */
+
+.nav_contents {
+  background-color: #f2f2f2;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+  width: 100%; 
+}
+
+.nav_button {
+  background-color: #f2f2f2;
+  border: none;
+  box-sizing: border-box;
+  color: #74cfae;
+  cursor: pointer;
+  font-size: 30px;
+  padding: 20px 0;
+  width: 185px;
+}
+
+.nav_button:hover {
+  background-color: #fff;
+  transition: 0.3s;
+}
+
+
+/* FOOTER CSS */
+footer {
+  background-color: #74cfae;
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  width: 100%;
+}
+
+.footer_content {
+  float: right;
+  font-family: Raleway;
+}
