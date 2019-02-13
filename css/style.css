@@ -143,7 +143,6 @@ header .bolt {
 }
 .middle a:hover {
   opacity: 1;
-  transition: 0.3s;
 }
 
 .middle li:nth-child(3n+1) {
@@ -171,6 +170,7 @@ header .bolt {
   display: inline-block;
   vertical-align: top;
 }
+
 .email a {
   background-color: #74cfae;
   color: #fff;
@@ -178,6 +178,11 @@ header .bolt {
   font-size: 12px;
   padding: 14px 20px;
   text-decoration: none;
+  transition: 0.3s;
+}
+
+.email a:hover {
+  color: #333;
 }
 
 
@@ -242,7 +247,7 @@ header .bolt {
 
 .box_nav a:hover {
   background-color: #fff;
-  transition: 0.3s;
+
 }
 
 
