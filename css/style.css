@@ -11,11 +11,13 @@
 .contents {
   margin: 0 auto;
   width: 1100px;
+  font-family: Lato;
 }
 /* HEADER CSS */
 
 header {
   background-color: #fff;
+  padding: 15px 0;
   position: fixed;
   top: 0;  
   width: 100%;
@@ -25,25 +27,17 @@ header {
 header .bolt {
   float: left;
   font-size: 40px;
-  margin: 15px 0;
   color: #c0c0c0;
 }
 
-.contact {
-  font-family: Raleway;
-  float: right;
-  margin-top: 15px;
-  margin-right: 200px;
-  margin-bottom: 15px;
-}
-
-header .contact_button {
+.contact a {
   background-color: #74cfae;
-  border-radius: 5px;
   color: #fff;
-  font-family: Lato;
-  padding: 12px 14px;
+  font-size: 12px;
+  float: right;
+  padding: 14px 12px;
   text-align: center;
+  text-decoration: none;
 }
 
 
@@ -54,15 +48,14 @@ header .contact_button {
   margin-top: 70px;
   padding-top: 250px;
   padding-bottom: 250px;
-  width: 100%;
 }
 
 .title_letter {
   text-align: center;
 }
-.main_text {
+.title_letter h1 {
   color: #74cfae;
-  font-family: Lato;
+  font-family: Raleway;
   font-size: 90px;
   font-weight: 700;
 }
@@ -83,7 +76,6 @@ header .contact_button {
   background-color: #74cfae;
   font-size: 0;
   padding-top: 50px;
-  width: 100%;
 }
 
 .left_section {
@@ -91,17 +83,11 @@ header .contact_button {
   display: inline-block;
   width: 40%;
 } 
-.img_in_section {
-  float: right;
-  margin-right: 50px;
-}
 
 .right_section {
   box-sizing: border-box;
   display: inline-block;
-  font-family: Raleway;
   padding-top: 30px;
-  padding-right: 30px;
   vertical-align: top;
   width: 60%;
 }
@@ -116,7 +102,6 @@ header .contact_button {
 
 .second_text {
   color: #fff;
-  font-family: Raleway;
   font-size: 20px;
   line-height: 1.5;
   text-align: center;
@@ -144,8 +129,8 @@ header .contact_button {
   float: left;
   margin: 0 auto;
   opacity: 0.7;
-  padding-left: 100px;
-  padding-bottom: 80px;
+  margin-left: 100px;
+  margin-top: 80px;
 }
 
 .middle li:hover {
@@ -154,38 +139,40 @@ header .contact_button {
 }
 
 .middle li:nth-child(3n+1) {
-  padding-left: 0;
+  margin-left: 0;
 }
 
-.middle li:nth-child(n+4) {
-  padding-bottom: 0;
+.middle li:nth-child(-n+3) {
+  margin-top: 0;
+}
+
+.middle img {
+  vertical-align: top;
 }
 
 .bottom {
-  display: inline-block;
   padding-top: 90px;
 }
 
-.bottom_text {
+.bottom p {
   display: inline-block;
   font-family: Raleway;
-  font-size: 12px;
   line-height: 1.5;
-  margin: 0 auto;
   margin-right: 90px;
   width: 50%;
 }
 
-.mail {
+.email {
   display: inline-block;
+  vertical-align: top;
 }
-.mail_button {
+.email a {
   background-color: #74cfae;
-  border: none;
   color: #fff;
   display: inline-block;
   font-size: 12px;
   padding: 14px 20px;
+  text-decoration: none;
 }
 
 
@@ -202,27 +189,21 @@ header .contact_button {
 .ourskills {
   font-family: Raleway;
   font-size: 24px;
-  padding-bottom: 70px; 
-  text-align: center;
-}
-
-.section_box ul {
-  font-size: 0;
-  list-style-type: none;
+  margin-bottom: 70px; 
   text-align: center;
 }
 
 .section_box ul li {
   box-sizing: border-box;
-  display: inline-block;
-  padding-left: 180px;
+  float: left;
+  margin-left: 180px;
+  text-align: center;
 }
 
 .section_box ul li:first-child {
-  padding-left: 0;
+  margin-left: 0;
 }
 .section_box p {
-  font-family: Raleway;
   font-size: 16px;
   margin-top: 10px;
 }
@@ -237,18 +218,18 @@ header .contact_button {
   width: 100%; 
 }
 
-.nav_button {
+
+.box_nav i {
   background-color: #f2f2f2;
-  border: none;
   box-sizing: border-box;
   color: #74cfae;
-  cursor: pointer;
+  list-style: none;
   font-size: 30px;
   padding: 20px 0;
+  text-decoration: none;
   width: 185px;
 }
-
-.nav_button:hover {
+.box_nav i:hover {
   background-color: #fff;
   transition: 0.3s;
 }
@@ -260,10 +241,8 @@ footer {
   color: #fff;
   padding-top: 20px;
   padding-bottom: 25px;
-  width: 100%;
 }
 
 .footer_content {
   float: right;
-  font-family: Raleway;
 }
