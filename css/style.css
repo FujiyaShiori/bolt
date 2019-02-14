@@ -290,7 +290,8 @@
   }
 
   .right_section {
-    margin-top: 20px
+    margin-top: 20px;
+    padding-top: 20px;
   }
 
   .right_section, .left_section {
@@ -395,7 +396,7 @@
   }
   /* main_title */
   .main_title {
-    margin-top: 70px;
+    margin-top: 78px;
     padding-top: 160px;
     padding-bottom: 130px;
   }
@@ -417,7 +418,8 @@
   }
 
   .right_section {
-    margin-top: 20px
+    margin-top: 20px;
+    padding-top: 0;
   }
 
   .right_section, .left_section {
